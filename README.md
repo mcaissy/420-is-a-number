@@ -11,7 +11,6 @@ All the fun of marijuana, without the legal hassle! Now with 100% more Snoop Dog
 
 Enjoy!
 
-
 Credit where it's due:
 "Pen" code s̶t̶o̶l̶e̶n̶ borrowed from ducksarethebest.com, by the amazing Visualidiot
 "Smoke" code from this JSfiddle by user jonnyc: http://jsfiddle.net/jonnyc/Ujz4P/5/
