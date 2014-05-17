@@ -1,3 +1,5 @@
+//CHARLTON TREZEVANT: SMOKE.JS MOD v2
+
 // Create an array to store our particles
 var particles = [];
 
@@ -5,7 +7,7 @@ var particles = [];
 var particleCount = 3;
 
 // The maximum velocity in each direction
-var maxVelocity = 5;
+var maxVelocity = 6;
 
 // The target frames per second (how often do we want to update / redraw the scene)
 var targetFPS = 9;
@@ -65,8 +67,12 @@ function Particle(context) {
         // Draw the circle as before, with the addition of using the position and the radius from this object.
         this.context.beginPath();
         this.context.arc(this.x, this.y, this.radius, 0, 2 * Math.PI, false);
-        this.context.fillStyle = "rgba(0, 255, 255, 1)";
-        this.context.fill();
+
+//Fix for the random blue dot bug.
+//Incremented maxVelocity by 1 to compensate for percieved slowdown that this caused.
+//        this.context.fillStyle = "rgba(0, 255, 255, 1)";
+//        this.context.fill();
+
         this.context.closePath();
     };
 
